@@ -6,7 +6,7 @@ read gitrepo
 #Cloning the git remote repo to a folder
 echo -n 'Project folder: '
 read projectfolder
-
+mkdir -p bundles
 mkdir $projectfolder && cd $projectfolder && git clone $gitrepo . &&
 for branch in `git branch -a | grep remotes | grep -v HEAD | grep -v master `; do
 git branch --track ${branch#remotes/origin/} $branch || git branch
