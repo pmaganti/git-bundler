@@ -9,10 +9,10 @@ I have a requirement where all of our git repos has to be backed up with all the
 
 ### what happens when you run it?
 
-1.Reads the remote repo url and the desired project folder name.
-2.Creates a bundles folder if not exists.
-3.Clones the repo into the desired project folder.
-4.Checkout all the remote branches. This is important for backing up all the remote branches.
-5.Creates a bundle of repo under bundles folder outside your project.
+1. Reads the remote repo url and the desired project folder name.
+2. Creates a bundles folder if not exists.
+3. Clones the repo into the desired project folder.
+4. Checkout all the remote branches. This is important for backing up all the remote branches.
+5. Creates a bundle of repo under bundles folder outside your project.
 
 # That's all!!
